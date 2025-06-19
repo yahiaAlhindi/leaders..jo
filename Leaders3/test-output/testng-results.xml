@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="10" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-18T15:07:10 GMT+03:00" name="Default suite" finished-at="2025-06-18T15:09:24 GMT+03:00" duration-ms="134523">
+    <groups>
+    </groups>
+    <test started-at="2025-06-18T15:07:10 GMT+03:00" name="Default test" finished-at="2025-06-18T15:09:24 GMT+03:00" duration-ms="134523">
+      <class name="Leaders3.Leaders3.AppTest">
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:Leaders3.Leaders3.AppTest@4c178a76]" started-at="2025-06-18T15:07:10 GMT+03:00" name="initDriver" finished-at="2025-06-18T15:07:22 GMT+03:00" duration-ms="12141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="CheckTheDefaultLangugeIsEnglish()[pri:1, instance:Leaders3.Leaders3.AppTest@4c178a76]" started-at="2025-06-18T15:07:22 GMT+03:00" name="CheckTheDefaultLangugeIsEnglish" finished-at="2025-06-18T15:07:23 GMT+03:00" duration-ms="1080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckTheDefaultLangugeIsEnglish -->
+        <test-method signature="startup()[pri:2, instance:Leaders3.Leaders3.AppTest@4c178a76]" started-at="2025-06-18T15:07:23 GMT+03:00" name="startup" finished-at="2025-06-18T15:07:29 GMT+03:00" duration-ms="6303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startup -->
+        <test-method signature="assstestPageLoadsCorrectly()[pri:3, instance:Leaders3.Leaders3.AppTest@4c178a76]" started-at="2025-06-18T15:07:29 GMT+03:00" name="assstestPageLoadsCorrectly" finished-at="2025-06-18T15:07:38 GMT+03:00" duration-ms="9239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assstestPageLoadsCorrectly -->
+        <test-method signature="appleContentisEmpty()[pri:4, instance:Leaders3.Leaders3.AppTest@4c178a76]" started-at="2025-06-18T15:07:38 GMT+03:00" name="appleContentisEmpty" finished-at="2025-06-18T15:07:43 GMT+03:00" duration-ms="5044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appleContentisEmpty -->
+        <test-method signature="testAllProductsHaveImages()[pri:5, instance:Leaders3.Leaders3.AppTest@4c178a76]" started-at="2025-06-18T15:07:43 GMT+03:00" name="testAllProductsHaveImages" finished-at="2025-06-18T15:07:47 GMT+03:00" duration-ms="3384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAllProductsHaveImages -->
+        <test-method signature="verifyProductImagesVisibility()[pri:6, instance:Leaders3.Leaders3.AppTest@4c178a76]" started-at="2025-06-18T15:07:47 GMT+03:00" name="verifyProductImagesVisibility" finished-at="2025-06-18T15:07:53 GMT+03:00" duration-ms="6114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductImagesVisibility -->
+        <test-method signature="clickAccountAndSignIn()[pri:7, instance:Leaders3.Leaders3.AppTest@4c178a76]" started-at="2025-06-18T15:07:53 GMT+03:00" name="clickAccountAndSignIn" finished-at="2025-06-18T15:08:14 GMT+03:00" duration-ms="20576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickAccountAndSignIn -->
+        <test-method signature="sort()[pri:8, instance:Leaders3.Leaders3.AppTest@4c178a76]" started-at="2025-06-18T15:08:14 GMT+03:00" name="sort" finished-at="2025-06-18T15:08:23 GMT+03:00" duration-ms="9660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sort -->
+        <test-method signature="addToCartWithQuantityAndProceedToCheckout()[pri:9, instance:Leaders3.Leaders3.AppTest@4c178a76]" started-at="2025-06-18T15:08:23 GMT+03:00" name="addToCartWithQuantityAndProceedToCheckout" finished-at="2025-06-18T15:08:54 GMT+03:00" duration-ms="30853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartWithQuantityAndProceedToCheckout -->
+        <test-method signature="enterRandomBillingInfo()[pri:10, instance:Leaders3.Leaders3.AppTest@4c178a76]" started-at="2025-06-18T15:08:54 GMT+03:00" name="enterRandomBillingInfo" finished-at="2025-06-18T15:08:59 GMT+03:00" duration-ms="5080" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#billing_first_name"}
+  (Session info: chrome=137.0.7151.119)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a48d4d0954fa41c8608a79645b001632, findElement {value=billing_first_name, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.119, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\hindi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49359}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49359/devtoo..., se:cdpVersion: 137.0.7151.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a48d4d0954fa41c8608a79645b001632]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#billing_first_name"}
+  (Session info: chrome=137.0.7151.119)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a48d4d0954fa41c8608a79645b001632, findElement {value=billing_first_name, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.119, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\hindi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49359}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49359/devtoo..., se:cdpVersion: 137.0.7151.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a48d4d0954fa41c8608a79645b001632
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at Leaders3.Leaders3.AppTest.enterRandomBillingInfo(AppTest.java:291)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterRandomBillingInfo -->
+        <test-method signature="checkAllProductPrices()[pri:11, instance:Leaders3.Leaders3.AppTest@4c178a76]" started-at="2025-06-18T15:08:59 GMT+03:00" name="checkAllProductPrices" finished-at="2025-06-18T15:09:24 GMT+03:00" duration-ms="24881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAllProductPrices -->
+      </class> <!-- Leaders3.Leaders3.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
